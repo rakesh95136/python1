@@ -6,7 +6,7 @@ def fun1(x):
 	if x == 1:
 		return 1
 	else:
-		f = x * fun(x - 1)
+		f = x * fun1(x - 1)
 		return f
 
 		
