@@ -1,9 +1,16 @@
 #Write a program to find the factorail of given number
 
-i = 0
-while (i < 10):
-	
-	print('-----------------------------')
-	print(i)
-	print('-----------------------------')
-	i += 1
+x = 5
+f = 1
+def fun1(x):
+	if x == 1:
+		return 1
+	else:
+		f = x * fun(x - 1)
+		return f
+
+		
+d = fun1(x)
+print(d)
+		
+		
