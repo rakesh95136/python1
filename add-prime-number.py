@@ -11,8 +11,6 @@ while (i <= (x - 1)):
 	#print(i,x)
 		
 
-
-
 if (i == x ):
 	print('PRIME')
 else:
