@@ -14,7 +14,7 @@ while (i <= (x - 1)):
 
 if (i == x ):
 	print('------------------------------------------')
-	print(i' :is the PRIME number')
+	print(i, ' :is the PRIME number')
 	print('------------------------------------------')
 else:
 	print('NOT PRIME')
