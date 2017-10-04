@@ -8,6 +8,7 @@ while (i <= (x - 1)):
 		break
 		pass
 	i += 1
+	
 	#print(i,x)
 		
 
